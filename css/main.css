@@ -1,7 +1,8 @@
 body {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Helvetica, sans-serif;
     background-color: azure;
+    gap: 32px;
     display: flex;
     justify-content: center;
 }
@@ -20,4 +21,13 @@ h1 {
     width: fit-content;
     padding: 24px;
     border-radius: 12px;
+    background-color: white;
+    box-shadow: 20px 0px 30px 60px rgba(0, 0, 0, 0.05);
+}
+
+.container p {
+    font-size: 1rem;
+    line-height: 1rem;
+    margin: 0px;
+    opacity: 0.6;
 }
